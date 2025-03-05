@@ -140,6 +140,7 @@ div#count {
     justify-content: center;
     align-items: center;
     background: #f7f7f7;
+    user-select: none;
 }
 .tooltipText {
     font-size: 12px;
