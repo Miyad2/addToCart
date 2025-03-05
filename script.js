@@ -114,14 +114,14 @@ var count = cartItemBox.querySelector('#count');
 var countNumber=Number(count.innerText)
 
 // Increase
-cartItemBox.querySelector("#increaseBtn").addEventListener ('click' , () => {
-    countNumber++
-    count.innerText=countNumber
+// cartItemBox.querySelector("#increaseBtn").addEventListener ('click' , () => {
+//     countNumber++
+//     count.innerText=countNumber
 
-    // price(countNumber)
+//     // price(countNumber)
 
     
-    } );
+//     } );
 // Decrease
 cartItemBox.querySelector("#decreaseBtn").addEventListener ('click' , () => {
     if(countNumber===0){
@@ -144,7 +144,7 @@ cartItemBox.querySelector("#deleteBtn").addEventListener ('click' , () => {
 
 
 
-
+// Increase
 
 cartItemBox.querySelector("#increaseBtn").addEventListener ('click' , () => {
     countNumber++
