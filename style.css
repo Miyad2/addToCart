@@ -169,10 +169,12 @@ div#deleteBtn {
 }
 .cart-price-part .cart-price:first-child{
     font-weight: 500;
+    user-select: none;
 }
 .cart-price-part .cart-price:last-child{
     font-weight: 500;
     color: rgb(255, 0, 0);
+    user-select: none;
 }
 .cart-item {
     display: flex;
