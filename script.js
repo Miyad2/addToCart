@@ -90,6 +90,20 @@ cartItemBox.querySelector('#increaseBtn').addEventListener("click", ()=>{
     })
 
 
+    // Update Total Amount
+var amount = document.querySelector(".total-amount")
+
+let totalAmount = cartStore.reduce((sum, product) => sum + product.discountPrice*product.quantity, 0);
+amount.innerHTML=totalAmount
+
     });
 
+
+
+
 }
+
+
+
+
+

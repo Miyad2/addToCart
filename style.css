@@ -11,6 +11,25 @@ img{
     width: 100%;
     height: 100%;
 }
+section.amount-section {
+    margin-top: 50px;
+}
+.amount-part {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.amount-text p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.amount{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
 .cart-icon {
     text-align: end;
     margin-bottom: 30px;
